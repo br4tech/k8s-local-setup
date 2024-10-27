@@ -9,37 +9,37 @@ O Minikube permite que você execute o Kubernetes localmente em uma máquina vir
 
 1. Baixe o binário do Minikube:
 
-    ```bash
-      curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
-    ```
+```bash
+  curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+```
 
 2. Instale o Minikube:
 
-    ```bash
-      sudo install minikube-linux-amd64 /usr/local/bin/minikube && rm minikube-linux-amd64
-    ```
+```bash
+  sudo install minikube-linux-amd64 /usr/local/bin/minikube && rm minikube-linux-amd64
+```
 
 ### macOS
 
 1. Baixe o binário do Minikube:
 
-    ```bash
-      curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-darwin-arm64
-    ```
+```bash
+  curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-darwin-arm64
+```
 
 2. Instale o Minikube:
 
-    ```bash
-      sudo install minikube-darwin-arm64 /usr/local/bin/minikube
-    ```
+```bash
+  sudo install minikube-darwin-arm64 /usr/local/bin/minikube
+```
 
 ### Verificando a instalação
 
 Execute o comando abaixo para verificar se o Minikube foi instalado corretamente:
 
-  ```bash
-    minikube version
-  ```
+```bash
+  minikube version
+```
 
 ## 2. Instalação do Helm
 O Helm é um gerenciador de pacotes para Kubernetes que simplifica a instalação e o gerenciamento de aplicativos.
@@ -48,27 +48,29 @@ O Helm é um gerenciador de pacotes para Kubernetes que simplifica a instalaçã
 
 1. Baixe o script de instalação do Helm:
 
-    ```bash
-      curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3    
-    ```
+```bash
+  curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3    
+```
+
 2. Dê permissão de execução ao script:
 
-    ```bash
-      chmod 700 get_helm.sh
-    ```
+```bash
+  chmod 700 get_helm.sh
+```
 
 3. Execute o script:
 
-    ```bash
-      ./get_helm.sh
-    ```
+```bash
+  ./get_helm.sh
+```
 
 ### macOS
 Use o Homebrew para instalar o Helm:
 
-  ```bash
-    brew install helm
-  ```
+```bash
+  brew install helm
+```
+
 #### Verificando a instalação
 Execute o comando abaixo para verificar se o Helm foi instalado corretamente:
 
